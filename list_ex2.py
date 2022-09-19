@@ -1,3 +1,4 @@
+from statistics import mean, median, mode
 from xml.dom.minidom import Element
 
 
@@ -35,3 +36,5 @@ books.remove('Elantris')
 print('idx\t| book')
 for i,b in enumerate(books):
     print(f'{i}\t| {b}')
+
+
