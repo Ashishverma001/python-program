@@ -10,7 +10,7 @@ w = Actor('rabbit',(400,400))
 
 
 def draw():
-    screen.blit('big', poss=(0,0))
+    screen.blit('big', pos=(0,0))
     C.draw()
     w.draw()
     screen.draw.text("A duck story",(10,10),color="red")
@@ -31,4 +31,4 @@ def update():
         C.angle = 0
          
       
-    pgzrun.go()
+pgzrun.go()
