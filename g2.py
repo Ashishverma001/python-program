@@ -1,5 +1,3 @@
-from tokenize import cookie_re
-from turtle import color
 import pgzrun
 
 HEIGTH = 500 
@@ -7,7 +5,8 @@ WEIDTH = 1000
 
 C = Actor('duck',(100,100))
 w = Actor('rabbit',(400,400))
-
+cake = Actor('cake',(randint(100,900),randint(100,500)))
+score = 0# variable(global)
 
 def draw():
     screen.blit('big', pos=(0,0))
