@@ -1,5 +1,8 @@
 # WAP to enter P R T and return amt 
 
+from re import I
+
+
 def amount():
     p = int(input("Enter Principle Amount = "))
     r = float(input("Enter the rate of intreast = "))
@@ -11,3 +14,4 @@ def amount():
 x,y = amount()
 print("Total Payable Amount =  ",x)
 print("Total Intrest = ",y)
+

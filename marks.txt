@@ -1,0 +1,6 @@
+ashish:200
+jhon:120
+rob:130
+jack:150
+ankit:90
+rock:100
