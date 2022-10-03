@@ -13,7 +13,7 @@ hellow() # calling the function
 
 # example 2:
 def roll_dice():
-    dices = ['1','2','3','4','5','6']
+    dices = ['⚀', '⚁', '⚂', '⚃', '⚄', '⚅']
     print(" => ", dices [randint(0,5)])
 
 roll_dice()
