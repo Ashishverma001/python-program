@@ -1,5 +1,6 @@
 
-import os 
+from email.mime import base
+import os
 import requests
 import datetime 
 import pandas as pd 
@@ -29,11 +30,14 @@ def extract_one(item):
     if title:
         data['title']= title.text.strip()
     if sell_price:
-        printsell_price.text.strip()
+        data['sell_price'] = sell_price.text.strip()
     if orig_price:
-        print(orig_price.text.strip())
+        data['orig_price']= orig_price.text.strip()
     if rating:
-        print(rating.text.strip())
+        data['rating']= rating.text.strip()
     if num_ratings:
-        print(num_ratings.text.strip())
-    print()
+        data['num_rating']= num_ratings.text.strip()
+    return data 
+
+
+    
