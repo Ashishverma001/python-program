@@ -1,6 +1,3 @@
-from functools import total_ordering
-from re import I
-
 
 n = input("Enter a number:")
 n = int(n)
